@@ -1,5 +1,7 @@
 var fs = require('fs')
 var os = require('os')
+require('dotenv').config()
+console.log(process.env)
 
 const func = () => 
 {
